@@ -1,0 +1,10 @@
+name = input("What is your name? ")
+book = open("guests.txt", "a")
+book.write(name + "\n")
+book.close()
+print("Thanks for signing,", name)
+print("Everyone who has signed:")
+book = open("guests.txt", "r")
+for line in book:
+    print("-", line.strip())
+book.close()

@@ -1,0 +1,683 @@
+<resources>
+    <string name="APP_NAME">PRIMM</string>
+
+    <!-- ///////////////// -->
+    <!-- // INVESTIGATE // -->
+    <!-- ///////////////// -->
+    <string name="SELF_MARK_RIGHT">Right</string>
+    <string name="SELF_MARK_PARTLY">Partly</string>
+    <string name="SELF_MARK_WRONG">Wrong</string>
+    <string name="ERRORS_NONE_UNFINISHED">No errors, but code didn't run to the end.</string>
+    <string name="ERRORS_NONE">No errors.</string>
+    <string name="INVESTIGATE_WAITING_RUN_FINISH">Waiting for the run to finish…</string>
+    <string name="INVESTIGATE_RUN_PROGRAM_COMPARE_PREDICTION">Run the program to compare it with your prediction.</string>
+    <string name="INVESTIGATE_RUN_STOPPED_BEFORE_END">The run was stopped before the end, so later rows shown as not run.</string>
+    <string name="INVESTIGATE_ONLY_FIRST_500_LINES">Only the first 500 lines of the run were recorded, so later rows can't be compared.</string>
+    <string name="INVESTIGATE_TRACE_TABLE">Trace table</string>
+    <string name="INVESTIGATE_DIDNT_RUN">didn't run</string>
+    <string name="INVESTIGATE_RAN_NOT_PREDICTED">ran, not predicted</string>
+    <string name="INVESTIGATE_INPUTS">Inputs</string>
+    <string name="INVESTIGATE_NEVER_ASKED">it never asked</string>
+    <string name="INVESTIGATE_FILES">Files</string>
+    <string name="INVESTIGATE_ONLY_FILES_PREDICTED_WOULD">Only the files you predicted would change are compared.</string>
+    <string name="INVESTIGATE_FILE_DOESNT_EXIST">(the file doesn't exist)</string>
+    <string name="INVESTIGATE_EMPTY">(empty)</string>
+    <string name="INVESTIGATE_PREDICTED_WOULD_HOLD">You predicted it would hold</string>
+    <string name="INVESTIGATE_AFTER_RUN_HELD">After the run it held</string>
+    <string name="INVESTIGATE_ERRORS">Errors</string>
+    <string name="INVESTIGATE_PREDICTED">You predicted: %1$s</string>
+    <string name="INVESTIGATE_SOMETHING_DIFFERENT_HAPPENED">Something different happened.</string>
+    <string name="INVESTIGATE_THERE_LOGIC_ERROR_CAUSED">Was there a logic error that caused the program to do something wrong?</string>
+    <string name="INVESTIGATE_MARK_ANSWERS">Mark your answers</string>
+    <string name="INVESTIGATE_THESE_CANT_CHECKED_AUTOMATICALLY">These can't be checked automatically. Mark this yourself.</string>
+    <string name="INVESTIGATE_SUMMARY">Your summary</string>
+    <string name="INVESTIGATE_BLANK">(blank)</string>
+    <string name="INVESTIGATE_WHAT_PROGRAM_PRINTED">What the program printed</string>
+    <string name="INVESTIGATE_NOTHING">(nothing)</string>
+    <string name="INVESTIGATE_SAID_LOOP_LINE_WOULD">You said the loop on line %1$s would end when</string>
+    <string name="INVESTIGATE_WHAT_DID">What it did</string>
+    <string name="INVESTIGATE_YOU_PREDICTED">You predicted</string>
+    <string name="INVESTIGATE_WHAT_HAPPENED">What happened</string>
+    <string name="INVESTIGATE_CLOSING_REFLECTION">Closing reflection</string>
+    <string name="INVESTIGATE_RIGHT_NOTHING_CHANGE">It was right: nothing to change</string>
+    <string name="INVESTIGATE_SUMMARY_WHAT_HAPPENED">Your summary of what happened...</string>
+    <string name="INVESTIGATE_ALL_MATCHED">Everything you predicted matched the run. Now mark your answers below.</string>
+    <string name="INVESTIGATE_WHY_NOT_RUN">Why do you think these lines didn't run?</string>
+    <string name="INVESTIGATE_WHY_RAN">Why do you think these lines ran? What did you expect instead?</string>
+    <string name="INVESTIGATE_WHY_DIFFERENT">What did you expect, and why do you think it was different?</string>
+    <string name="INVESTIGATE_REVEALED">Revealed.</string>
+    <string name="INVESTIGATE_REVEAL_WHAT_HAPPENED">Reveal what happened</string>
+    <string name="INVESTIGATE_WRITE_EXPLANATION_FIRST">Write your explanation first.</string>
+    <string name="INVESTIGATE_LINE">Line</string>
+    <string name="INVESTIGATE_CONDITION">Condition</string>
+    <string name="INVESTIGATE_OUTPUT">Output</string>
+    <string name="INVESTIGATE_ONE_LINE_NOT_PREDICTED">+  1 line ran that you didn't predict</string>
+    <string name="INVESTIGATE_LINES_NOT_PREDICTED">+  %1$s lines ran that you didn't predict</string>
+    <string name="INVESTIGATE_ONE_PASS_NOT_PREDICTED">+  1 pass happened that you didn't predict</string>
+    <string name="INVESTIGATE_PASSES_NOT_PREDICTED">+  %1$s passes happened that you didn't predict</string>
+    <string name="INVESTIGATE_WHY_NO_PASS">Why do you think these rows didn't happen?</string>
+    <string name="INVESTIGATE_WHY_EXTRA_PASS">Why do you think the loop went round more times than you predicted?</string>
+    <string name="INVESTIGATE_INTRO">For each difference, explain what you expected and why it was different. %1$s of %2$s explained.</string>
+    <string name="INVESTIGATE_INTRO_REVEAL">For each difference, explain what you expected and why it was different, then reveal what really happened. %1$s of %2$s explained.</string>
+    <string name="INVESTIGATE_INPUT_ROW">%1$s. You planned: %2$s   ·   The program got: %3$s</string>
+    <string name="INVESTIGATE_LEGEND_MATCHES">matches</string>
+    <string name="INVESTIGATE_LEGEND_DIFFERENT">different</string>
+
+    <!-- //////////// -->
+    <!-- // EDITOR // -->
+    <!-- //////////// -->
+    <string name="EDITOR_TAB_ORIGINAL">Original</string>
+    <string name="EDITOR_TAB_MODIFIED">Modified</string>
+    <string name="EDITOR_TAB_MAKE">Make</string>
+    <string name="MARK_TOOL_PEN">Pen</string>
+    <string name="MARK_TOOL_HIGHLIGHTER">Highlighter</string>
+    <string name="MARK_TOOL_ERASER">Eraser</string>
+    <string name="EDITOR_LOCKED_RIGHT_NOW">This is locked right now.</string>
+    <string name="EDITOR_HIDE">Hide</string>
+    <string name="EDITOR_SHOW">Show</string>
+    <string name="EDITOR_CLEAR">Clear</string>
+
+    <!-- //////////// -->
+    <!-- // MODIFY // -->
+    <!-- //////////// -->
+    <string name="VERDICT_YES">Yes</string>
+    <string name="VERDICT_PARTLY">Partly</string>
+    <string name="VERDICT_NO">No</string>
+    <string name="MODIFY_START_MODIFYING">Start modifying</string>
+    <string name="MODIFY_MODIFICATIONS_WILL_NEW_TAB">Your modifications will be in a new tab so you can compare and contrast.</string>
+    <string name="MODIFY_CHALLENGES">The challenges</string>
+    <string name="MODIFY_EDITOR_IS_ON">The editor is on: %1$s.</string>
+    <string name="MODIFY_SHOW_MODIFIED">Show Modified</string>
+    <string name="MODIFY_WHAT_DO_EXPECT_DIFFERENT">What do you expect to be different this time?</string>
+    <string name="MODIFY_FIRST_SAY_HOW_LAST">First say how your last run went, in the change log below.</string>
+    <string name="MODIFY_BEFORE_EACH_RUN_WHAT">Before each run: what should happen differently?</string>
+    <string name="MODIFY_RUN_MODIFIED_CODE">▶ Run modified code</string>
+    <string name="MODIFY_CHANGE_LOG">Change log</string>
+    <string name="MODIFY_EACH_RUN_MODIFIED_CODE">Each run of your modified code is kept here, with what you expected.</string>
+    <string name="MODIFY_I_EXPECTED">I expected: %1$s</string>
+    <string name="MODIFY_DID_DO_WHAT_EXPECTED">Did it do what you expected?</string>
+    <string name="MODIFY_NOTE_OPTIONAL">a note (optional)</string>
+    <string name="MODIFY_MY_GOAL">My goal</string>
+    <string name="MODIFY_CHALLENGES_HEADING">Challenges</string>
+    <string name="MODIFY_THERE_NO_CHALLENGES_PROGRAM">There are no challenges for this program: what will you change it to do?</string>
+    <string name="MODIFY_CHECK">Check</string>
+    <string name="MODIFY_TICK_CHALLENGE_WHEN_YOUVE">Tick a challenge when you've done it. Check runs your code with test inputs and ticks it if the output is right.</string>
+    <string name="MODIFY_COMPARE_ORIGINAL">Compare with the original</string>
+    <string name="MODIFY_NO_LINES_DIFFER_FROM">No lines differ from the original yet.</string>
+    <string name="MODIFY_COMPARE">Compare</string>
+    <string name="MODIFY_REVERT">Revert…</string>
+    <string name="MODIFY_MAKE_UNLOCKS_WHEN_WRITTEN">Make unlocks when this is written.</string>
+    <string name="MODIFY_MAKE_UNLOCKS_WHEN_EVERY">Make unlocks when every challenge is ticked or this is written.</string>
+    <string name="MODIFY_LINES_DIFFER">%1$s from the original (marked in the editor).</string>
+    <string name="COUNT_LINE_DIFFERS_ONE">%1$s line differs</string>
+    <string name="COUNT_LINE_DIFFERS_OTHER">%1$s lines differ</string>
+
+    <!-- ///////////// -->
+    <!-- // PREDICT // -->
+    <!-- ///////////// -->
+    <string name="EXPECTED_ERROR_NONE">No errors</string>
+    <string name="EXPECTED_ERROR_SYNTAX">Syntax error</string>
+    <string name="EXPECTED_ERROR_RUNTIME">Runtime</string>
+    <string name="EXPECTED_ERROR_LOGIC">Logic error</string>
+    <string name="PREDICT_FILL_EACH_PART_UNLOCK">Fill in each part to unlock Run: %1$s of %2$s done.</string>
+    <string name="PREDICT_WHAT_DOES_PROGRAM_DO">What does the program do?</string>
+    <string name="PREDICT_TWO_THREE_SENTENCES_WHAT">In two or three sentences, what does this program do?</string>
+    <string name="PREDICT_SOME_HELPERS_ARENT_AVAILABLE">Some helpers aren't available for this program, so fill in the table by hand.</string>
+    <string name="PREDICT_INPUTS_I_WILL_TYPE">Inputs I will type</string>
+    <string name="PREDICT_LOOKING_INPUT_CALLS">Looking for input() calls…</string>
+    <string name="PREDICT_PROGRAM_DOESNT_ASK_INPUT">This program doesn't ask for input.</string>
+    <string name="PREDICT_INPUT_CALL">line %1$s · %2$s</string>
+    <string name="PREDICT_IN_LOOP">in loop</string>
+    <string name="PREDICT_ANOTHER_ANSWER">+ another answer</string>
+    <string name="PREDICT_WHAT_YOULL_TYPE">what you'll type</string>
+    <string name="PREDICT_ADD_INPUT">+ Input</string>
+    <string name="PREDICT_TRACE_TABLE">Trace table</string>
+    <string name="PREDICT_ONE_ROW_PER_LINE">One row per line, in the order you think it runs. Leave a value blank if it doesn't change. You can skip lines that change nothing in the table and print nothing.</string>
+    <string name="PREDICT_ONE_ROW_PER_PASS">One row for each pass of the loop: write what each variable holds at the end of the pass, and leave a cell blank if it hasn't changed. Start is before the loop and End is after it.</string>
+    <string name="PREDICT_LOOP_WILL_END_WHEN">The loop will end when…</string>
+    <string name="PREDICT_LOOP_LINE_WILL_END">Loop on line %1$s will end when</string>
+    <string name="PREDICT_FILES">Files</string>
+    <string name="PREDICT_EXPECTED_BUGS_ERRORS">Expected bugs or errors</string>
+    <string name="PREDICT_LINE_LABEL">Line</string>
+    <string name="PREDICT_WHY">why?</string>
+    <string name="PREDICT_FILE_WHOSE_NAME_WORKED">%1$s a file whose name is worked out as it runs</string>
+    <string name="PREDICT_PROGRAM_ONLY_READS_FILES">This program doesn't write to files, so nothing here should change.</string>
+    <string name="PREDICT_TICK_FILE_IF_THINK">Tick a file if you think the run will change it, then show what it will hold afterwards.</string>
+    <string name="PREDICT_I_THINK_WILL_CHANGE">I think %1$s will change</string>
+    <string name="PREDICT_WHAT_WILL_HOLD_AFTER">What %1$s will hold after the run</string>
+    <string name="PREDICT_I_THINK_NEW_FILE">I think %1$s will change (it doesn't exist yet)</string>
+
+    <!-- //////////////// -->
+    <!-- // PRIMM ROWS // -->
+    <!-- //////////////// -->
+    <string name="STAGE_PREDICT_SHORT">P</string>
+    <string name="STAGE_RUN_SHORT">R</string>
+    <string name="STAGE_INVESTIGATE_SHORT">I</string>
+    <string name="STAGE_MODIFY_SHORT">M</string>
+    <string name="STAGE_MAKE_SHORT">M</string>
+
+    <string name="STAGE_PREDICT_SHORT_ADDITIONAL"></string>
+    <string name="STAGE_RUN_SHORT_ADDITIONAL"></string>
+    <string name="STAGE_INVESTIGATE_SHORT_ADDITIONAL"></string>
+    <string name="STAGE_MODIFY_SHORT_ADDITIONAL">o</string>
+    <string name="STAGE_MAKE_SHORT_ADDITIONAL">a</string>
+
+    <string name="STAGE_PREDICT">Predict</string>
+    <string name="STAGE_RUN">Run</string>
+    <string name="STAGE_INVESTIGATE">Investigate</string>
+    <string name="STAGE_MODIFY">Modify</string>
+    <string name="STAGE_MAKE">Make</string>
+
+    <string name="LOCKED_UNTIL_PREDICT">Finish Predict to unlock</string>
+    <string name="LOCKED_UNTIL_RUN">Run the program to unlock</string>
+    <string name="LOCKED_UNTIL_INVESTIGATE">Finish Investigate to unlock</string>
+    <string name="LOCKED_UNTIL_MODIFY">Finish Modify to unlock</string>
+    <string name="SUBTITLE_PREDICT">%1$s · %2$s</string>
+    <string name="COUNT_TRACE_ROW_ONE">%1$s trace row</string>
+    <string name="COUNT_TRACE_ROW_OTHER">%1$s trace rows</string>
+    <string name="COUNT_INPUT_ONE">%1$s input</string>
+    <string name="COUNT_INPUT_OTHER">%1$s inputs</string>
+    <string name="SUBTITLE_NOT_RUN">Not run yet</string>
+    <string name="SUBTITLE_RAN">Ran %1$s× · %2$s</string>
+    <string name="COUNT_ROW_ONE">%1$s row</string>
+    <string name="COUNT_ROW_OTHER">%1$s rows</string>
+    <string name="SUBTITLE_NOT_COMPARED">Not compared yet</string>
+    <string name="SUBTITLE_NOTHING_TO_COMPARE">Nothing to compare</string>
+    <string name="SUBTITLE_ROWS_DIFFER">%1$s of %2$s rows differ</string>
+    <string name="SUBTITLE_CHALLENGES">%1$s of %2$s</string>
+    <string name="COUNT_CHALLENGE_ONE">%1$s challenge</string>
+    <string name="COUNT_CHALLENGE_OTHER">%1$s challenges</string>
+    <string name="SUBTITLE_NOT_STARTED">Not started</string>
+    <string name="SUBTITLE_CHANGES_LOGGED">%1$s logged</string>
+    <string name="COUNT_CHANGE_ONE">%1$s change</string>
+    <string name="COUNT_CHANGE_OTHER">%1$s changes</string>
+    <string name="SUBTITLE_BRIEF_ONLY">Brief and reflection</string>
+    <string name="SUBTITLE_REFLECTION_WRITTEN">Reflection written</string>
+    <string name="SUBTITLE_TESTS_PASS">%1$s of %2$s pass</string>
+    <string name="COUNT_TEST_ONE">%1$s test</string>
+    <string name="COUNT_TEST_OTHER">%1$s tests</string>
+    <string name="SUBTITLE_NO_TESTS">No tests yet</string>
+
+    <!-- ///////////////////// -->
+    <!-- // SNIPPET LIBRARY // -->
+    <!-- ///////////////////// -->
+    <string name="CONCEPT_INPUT">input</string>
+    <string name="CONCEPT_SELECTION">selection</string>
+    <string name="CONCEPT_FOR_LOOP">count-controlled loop</string>
+    <string name="CONCEPT_WHILE_LOOP">condition-controlled loop</string>
+    <string name="CONCEPT_LIST">list</string>
+    <string name="CONCEPT_FUNCTION">function</string>
+    <string name="CONCEPT_FILE">text file</string>
+
+    <!-- /////////// -->
+    <!-- // FILES // -->
+    <!-- /////////// -->
+    <string name="FILE_VERB_OPENS">opens</string>
+    <string name="FILE_VERB_ADDS_TO">adds to</string>
+    <string name="FILE_VERB_WRITES">writes</string>
+    <string name="FILE_VERB_READS_AND_WRITES">reads and writes</string>
+    <string name="FILE_VERB_READS">reads</string>
+    <string name="FILE_NAME_BLANK">Give the file a name, such as scores.txt.</string>
+    <string name="FILE_NAME_EDGE_SPACE">A file name can't start or end with a space.</string>
+    <string name="FILE_NAME_FORBIDDEN">A file name can't contain any of / \\ : * ? " &lt; &gt; |</string>
+    <string name="FILE_NAME_DOT">A file name can't start with a dot.</string>
+    <string name="FILE_NAME_TOO_LONG">Keep the file name under %1$s characters.</string>
+    <string name="FILE_NAME_TAKEN">There's already a file called %1$s.</string>
+    <string name="FILE_TOO_MANY">There can be at most %1$s files.</string>
+    <string name="FILE_REPLACED">Replaced %1$s with the uploaded file.</string>
+    <string name="FILES_UNDO">Undo</string>
+    <string name="FILES_LOCKED_WHILE_RUNNING">Files are locked while the script is running</string>
+    <string name="FILES_NEW">+ New</string>
+    <string name="FILES_UPLOAD">Upload…</string>
+    <string name="FILES_NO_FILES_YET">No files yet.</string>
+    <string name="FILES_DOWNLOAD">Download</string>
+    <string name="FILES_DELETE">Delete</string>
+    <string name="FILES_EMPTY">(empty)</string>
+    <string name="FILES_LAST_RUN_CHANGED">The last run changed %1$s.</string>
+    <string name="FILES_LAST_RUN_DELETED">The last run deleted %1$s.</string>
+    <string name="FILES_LAST_RUN_CHANGED_AND_DELETED">The last run changed %1$s and deleted %2$s.</string>
+    <string name="FILES_SIZE">%1$s · %2$s of %3$s characters</string>
+    <string name="FILES_CHANGED_LABEL">changed</string>
+
+    <!-- ///////// -->
+    <!-- // RUN // -->
+    <!-- ///////// -->
+    <string name="LOOP_ON_LINE">Loop on line %1$s</string>
+    <string name="LOOP_NEVER_RAN">%1$s never ran.</string>
+    <string name="COUNT_TIME_ONE">%1$s time</string>
+    <string name="COUNT_TIME_OTHER">%1$s times</string>
+    <string name="LOOP_TIMES_IN_TOTAL">%1$s in total (started %2$s times)</string>
+    <string name="LOOP_DIDNT_FINISH">%1$s ran %2$s and didn't finish.</string>
+    <string name="LOOP_RAN">%1$s ran %2$s.</string>
+    <string name="LOOP_RAN_AND_STOPPED">%1$s ran %2$s; it stopped when %3$s.</string>
+    <string name="RUN_BUTTON">▶ Run</string>
+    <string name="RUN_LINE_BY_LINE">Run line-by-line</string>
+    <string name="RUN_RUN_KEPT_INVESTIGATE_RUN">This run is kept for Investigate. Run your changes from the console.</string>
+    <string name="RUN_FILL_AUTOMATICALLY">Fill in automatically</string>
+    <string name="RUN_USE_MY_PREDICTED_INPUTS">Use my predicted inputs</string>
+    <string name="RUN_RUN_PROGRAM_FILL">Run the program to fill this in.</string>
+    <string name="RUN_WHAT_HAPPENED">What happened</string>
+    <string name="RUN_TRACE_STOPPED_AFTER_500">The trace stopped after 500 lines; the program carried on to the end.</string>
+    <string name="RUN_INPUTS_USED">Inputs used</string>
+    <string name="RUN_LINE">line %1$s</string>
+    <string name="RUN_LOOPS">Loops</string>
+    <string name="RUN_TRACE_TABLE">Trace table</string>
+    <string name="RUN_NO_LINES_RAN">No lines ran.</string>
+    <string name="RUN_WAITING_FIRST_LINE">Waiting for the first line…</string>
+    <string name="RUN_FILL_YOURSELF_STEP_THROUGH">Fill this in yourself as you step through the program.</string>
+    <string name="RUN_PAUSED_BEFORE_HIGHLIGHTED_LINE">Paused before the highlighted line. Press Next in the console.</string>
+    <string name="RUN_WAITING_INPUT_CONSOLE">Waiting for input in the console.</string>
+    <string name="RUN_RUNNING">Running…</string>
+    <string name="RUN_NO_ERRORS_PROGRAM_RAN">No errors: the program ran to the end.</string>
+    <string name="RUN_STOPPED_BEFORE_END">Stopped before the end.</string>
+    <string name="RUN_INPUT">input</string>
+
+    <!-- ///////////// -->
+    <!-- // LOADING // -->
+    <!-- ///////////// -->
+    <string name="LINK_EMPTY_LINK">Paste a link to a .py or .txt file.</string>
+    <string name="LINK_NOT_A_LINK">That doesn't look like a web link. It should start with https://</string>
+    <string name="LINK_GOOGLE_DRIVE">Google Drive links can't be opened by other web pages. Put the file on GitHub or in a Gist and use its raw link instead.</string>
+    <string name="LINK_ONEDRIVE">OneDrive and SharePoint links can't be opened by other web pages. Put the file on GitHub or in a Gist and use its raw link instead.</string>
+    <string name="LINK_GITHUB_NOT_A_FILE">That's a GitHub page rather than a file. Open the .py file on GitHub and copy its link.</string>
+    <string name="LINK_GIST_NEEDS_RAW">Open the gist, press its Raw button and copy that link.</string>
+    <string name="LINK_BLOCKED">Couldn't read that link. The site may not allow other web pages to read its files (Google Drive and OneDrive don't), or you may be offline. GitHub and Gist raw links work.</string>
+    <string name="LINK_TOO_LARGE">That file is bigger than 50 KB, which is too large for this app.</string>
+    <string name="LINK_WEB_PAGE">That link opened a web page, not a Python file. On GitHub, press Raw and copy that link.</string>
+    <string name="LINK_NOT_TEXT">That file doesn't look like a text file.</string>
+    <string name="LINK_EMPTY_FILE">That file is empty.</string>
+    <string name="LINK_NOT_FOUND">That file wasn't found (error 404). Check the link is complete.</string>
+    <string name="LINK_PRIVATE">That file is private (error %1$s). Make it public, or use a Gist.</string>
+    <string name="LINK_SERVER_ERROR">The site couldn't send that file (error %1$s). Try again later.</string>
+    <string name="LINK_PROGRAM_TITLE">Program from a link</string>
+    <string name="LOAD_TITLE">Load a program</string>
+    <string name="LOAD_TAB_LIBRARY">Built-in programs</string>
+    <string name="LOAD_TAB_LINK">From a link</string>
+    <string name="LOAD_TAB_SESSION">From a session file</string>
+    <string name="LOAD_SEARCH">Search</string>
+    <string name="LOAD_NO_PROGRAMS_MATCH">No programs match “%1$s”.</string>
+    <string name="LOAD_CHOOSE_PROGRAM_LEFT">Choose a program on the left...</string>
+    <string name="LOAD_VARIABLES_ONLY">variables only</string>
+    <string name="LOAD_USES">%1$s · uses %2$s</string>
+    <string name="LOAD_THIS_PROGRAM">Load this program</string>
+    <string name="LOAD_PASTE_LINK_PYTHON_PY">Paste a link to a Python (.py) or text file.</string>
+    <string name="LOAD_BUTTON">Load</string>
+    <string name="LOAD_DOWNLOADING">Downloading…</string>
+    <string name="LOAD_LINKS_WORK">Links that work:</string>
+    <string name="LOAD_LINKS_THAT_WORK_LIST">• A file on GitHub: paste its url.\n• A GitHub Gist: paste the gist's link, or its Raw link.\n• Any website that lets other pages read its files, such as your own server.\nGoogle Drive and OneDrive links don't work, because they don't allow it. Files must be 50 KB or less.</string>
+    <string name="LOAD_AFTER_LOADING_ADDRESS_BAR">After loading, the address bar holds a link that opens this program directly, you should probably use a link shortener for it.</string>
+    <string name="LOAD_CARRY_FROM_PREVIOUS_SESSION">Carry on from a previous session...</string>
+    <string name="LOAD_CHOOSE_PRIMM_JSON_FILE">Choose a .primm.json file…</string>
+    <string name="LOAD_SESSION_FILE_HOLDS_PROGRAM">A session file holds the program and everything written about it: predictions, the latest run, and what was found out in Investigate.</string>
+
+    <!-- ///////////////////// -->
+    <!-- // FRIENDLY ERRORS // -->
+    <!-- ///////////////////// -->
+    <string name="ERROR_DIVIDE_BY_ZERO">The program tried to divide by zero, which isn't possible.</string>
+    <string name="ERROR_NO_SUCH_KEY">The dictionary has no key %1$s.</string>
+    <string name="ERROR_TABS_AND_SPACES">This line mixes tabs and spaces for indentation. Use one or the other.</string>
+    <string name="ERROR_RECURSION">A function kept calling itself and never stopped.</string>
+    <string name="ERROR_FILE_EXISTS_NAMED">There's already a file called '%1$s'. Mode "x" only makes new files: use "w" to write over it.</string>
+    <string name="ERROR_FILE_EXISTS">That file already exists. Mode "x" only makes new files: use "w" to write over it.</string>
+    <string name="ERROR_OPENED_A_FOLDER">open() needs the name of a file, such as "scores.txt", not a folder.</string>
+    <string name="ERROR_PERMISSION">Python isn't allowed to open that. Use a file from the Files tab.</string>
+    <string name="ERROR_NO_MODULE">There's no module called '%1$s' available here.</string>
+    <string name="ERROR_WEATHER_UNREACHABLE">The program couldn't reach the weather service. Check the computer is online: a school network may need to allow open-meteo.com.</string>
+    <string name="ERROR_WEATHER_REFUSED">The weather service couldn't answer just now (it said %1$s). Wait a minute, then run the program again.</string>
+    <string name="ERROR_TRUE_FALSE_NONE_CAPITALS">True, False and None start with a capital letter in Python: write %1$s.</string>
+    <string name="ERROR_UNKNOWN_NAME_SUGGESTION">Python doesn't know anything called '%1$s'. Did you mean '%2$s'?</string>
+    <string name="ERROR_UNKNOWN_NAME">Python doesn't know anything called '%1$s'. Have you declared this variable yet? Have you misspelled it?</string>
+    <string name="ERROR_JOIN_TEXT_AND">You tried to join text and %1$s with +. Use str() to turn it into text, or separate the values with commas in print().</string>
+    <string name="ERROR_TEXT_AND_NUMBER">You tried to use %1$s on text and a number. If the text came from input(), turn it into a number with int() or float() first.</string>
+    <string name="ERROR_NONE_VALUE">One of the values is None (nothing). A function that doesn't return anything gives None.</string>
+    <string name="ERROR_OPERATOR_CANT_BE_USED">%1$s can't be used with %2$s and %3$s.</string>
+    <string name="ERROR_COMPARED_TEXT_AND_NUMBER">You compared text with a number. If the text came from input(), turn it into a number with int() first.</string>
+    <string name="ERROR_CANT_COMPARE">You can't compare %1$s with %2$s using %3$s.</string>
+    <string name="ERROR_NUMBER_CALLED">Brackets straight after a number make Python treat it as a function. Did you miss out a * to multiply?</string>
+    <string name="ERROR_NOT_A_FUNCTION">Brackets after a name run it as a function, but this is %1$s.</string>
+    <string name="ERROR_NOT_SUBSCRIPTABLE">Square brackets [ ] work on lists, text and dictionaries, not on %1$s.</string>
+    <string name="ERROR_LOOP_OVER_NUMBER">A for loop needs something to go through. To repeat something n times, use range(n).</string>
+    <string name="ERROR_LOOP_OVER">A for loop can't go through %1$s.</string>
+    <string name="ERROR_ONE_VALUE">1 value</string>
+    <string name="ERROR_N_VALUES">%1$s values</string>
+    <string name="ERROR_TOO_MANY_ARGUMENTS">%1$s() expects %2$s in its brackets, but it was given %3$s.</string>
+    <string name="ERROR_MISSING_ARGUMENTS">%1$s() needs more values in its brackets: %2$s is missing.</string>
+    <string name="ERROR_WRITE_NEEDS_TEXT">write() only takes text, but it was given %1$s. Use str() to turn it into text first.</string>
+    <string name="ERROR_MULTIPLY_SEQUENCE">Text and lists can only be multiplied by a whole number.</string>
+    <string name="ERROR_FILE_NOT_FOUND">Python couldn't find that file. Check the name in the Files tab.</string>
+    <string name="ERROR_FILE_IN_FOLDER">Files here sit in one place, with no folders: use just the file's name, such as '%1$s'.</string>
+    <string name="ERROR_FILE_NOT_FOUND_NAMED">There's no file called '%1$s' in the Files tab. Check the spelling (capital letters count), or add the file there. To make a new file, open it with "w".</string>
+    <string name="ERROR_FILE_NOT_READABLE">This file was opened for writing, so it can't be read. Open it with "r" to read it.</string>
+    <string name="ERROR_FILE_NOT_WRITABLE">This file was opened for reading, so it can't be written to. Open it with "w" to write over it, or "a" to add to the end.</string>
+    <string name="ERROR_FILE_CLOSED">The file was already closed. Read or write it before the line that calls close().</string>
+    <string name="ERROR_FILE_BAD_MODE">The second value in open() is the mode: "r" to read, "w" to write over, "a" to add to the end.</string>
+    <string name="ERROR_UNKNOWN_PLACE">The weather service doesn't know a place called '%1$s'. Check the spelling, or try a nearby town.</string>
+    <string name="ERROR_INT_BLANK">int() was given nothing to convert.</string>
+    <string name="ERROR_INT_DECIMAL">int() only accepts whole numbers, but it was given '%1$s'. Use float() for decimals.</string>
+    <string name="ERROR_INT_INVALID">int() can only convert whole numbers, but it was given '%1$s'.</string>
+    <string name="ERROR_FLOAT_BLANK">float() was given nothing to convert.</string>
+    <string name="ERROR_FLOAT_INVALID">float() can only convert numbers, but it was given '%1$s'.</string>
+    <string name="ERROR_LIST_INDEX">The program asked for a position that isn't in the list. Positions start at 0, so the last one is the length minus 1.</string>
+    <string name="ERROR_STRING_INDEX">The program asked for a position that isn't in the text. Positions start at 0, so the last one is the length minus 1.</string>
+    <string name="ERROR_INDEX">The program asked for a position that doesn't exist.</string>
+    <string name="ERROR_NO_ATTRIBUTE">%1$s doesn't have anything called '%2$s'. Check the spelling.</string>
+    <string name="ERROR_CANNOT_ASSIGN">The left side of = must be a variable name, as in x = 5. To compare two values, use ==.</string>
+    <string name="ERROR_USE_DOUBLE_EQUALS">To compare two values, use == (two equals signs). A single = stores a value in a variable.</string>
+    <string name="ERROR_MISSING_COLON">Lines that start with if, elif, else, for, while or def must end with a colon (:).</string>
+    <string name="ERROR_UNTERMINATED_STRING">A piece of text is missing its closing quote mark.</string>
+    <string name="ERROR_BRACKET_NEVER_CLOSED">A '%1$s' bracket was opened but never closed.</string>
+    <string name="ERROR_BRACKET_UNMATCHED">There's a closing '%1$s' with no opening bracket to match it.</string>
+    <string name="ERROR_MISSING_COMMA">Python expected a comma between the items on this line.</string>
+    <string name="ERROR_SYNTAX">Python couldn't understand this line. Check for a missing bracket, quote mark, comma or operator.</string>
+    <string name="ERROR_EXPECTED_INDENT">The lines inside an if, for, while or def must be indented (whitespace, using spaces or tab).</string>
+    <string name="ERROR_UNEXPECTED_INDENT">This line is indented but shouldn't be. Line it up with the code around it.</string>
+    <string name="ERROR_UNINDENT_MISMATCH">This line's indentation doesn't line up with the lines above it.</string>
+    <string name="TYPE_INT">a whole number</string>
+    <string name="TYPE_FLOAT">a decimal number</string>
+    <string name="TYPE_BOOL">a True/False value</string>
+    <string name="TYPE_LIST">a list</string>
+    <string name="TYPE_DICT">a dictionary</string>
+    <string name="TYPE_TUPLE">a tuple</string>
+    <string name="TYPE_FUNCTION">a function</string>
+    <string name="TYPE_TEXT">text</string>
+    <string name="TYPE_OTHER">a %1$s</string>
+
+    <!-- //////////// -->
+    <!-- // REPORT // -->
+    <!-- //////////// -->
+    <string name="LANGUAGE_CODE">en</string>
+    <string name="REPORT_PAGE_TITLE">PRIMM: %1$s</string>
+    <string name="REPORT_NAMES">- %1$s</string>
+    <string name="REPORT_CODE">Code</string>
+    <string name="REPORT_NO_CHANGES">No changes from the original.</string>
+    <string name="REPORT_LINES_DIFFER">%1$s differ from the original (marked).</string>
+    <string name="COUNT_LINE_ONE">%1$s line</string>
+    <string name="COUNT_LINE_OTHER">%1$s lines</string>
+    <string name="REPORT_EMPTY">(empty)</string>
+    <string name="REPORT_FILES">Files</string>
+    <string name="REPORT_PREDICT">P · Predict</string>
+    <string name="REPORT_WHAT_DOES_IT_DO">What does the program do?</string>
+    <string name="REPORT_INPUTS_I_WILL_TYPE">Inputs I will type</string>
+    <string name="REPORT_ON_LINE">(line %1$s)</string>
+    <string name="REPORT_TRACE_TABLE">Trace table</string>
+    <string name="TRACE_LINE">Line</string>
+    <string name="TRACE_CONDITION">Condition</string>
+    <string name="TRACE_OUTPUT">Output</string>
+    <string name="REPORT_LOOP_WILL_END">The loop will end when…</string>
+    <string name="REPORT_LOOP_ON_LINE">Loop on line %1$s:</string>
+    <string name="REPORT_EXPECTED_ERRORS">Expected bugs or errors</string>
+    <string name="REPORT_FILES_AFTERWARDS">What the files will hold afterwards</string>
+    <string name="REPORT_RUN">R · Run</string>
+    <string name="REPORT_NOT_RUN">Not run yet.</string>
+    <string name="REPORT_RUNS">Runs: %1$s. Latest: %2$s</string>
+    <string name="REPORT_TRACE_STOPPED">(trace stopped at 500 lines)</string>
+    <string name="REPORT_INPUTS_USED">Inputs used</string>
+    <string name="REPORT_FROM_PREDICT">(from Predict)</string>
+    <string name="REPORT_LOOPS">Loops</string>
+    <string name="REPORT_INVESTIGATE">I · Investigate</string>
+    <string name="REPORT_NOT_COMPARED">Not compared yet.</string>
+    <string name="REPORT_DIFFER_EXPLAINED">%1$s of %2$s differ; %3$s of %4$s explained.</string>
+    <string name="COUNT_DIFFERENCE_ONE">%1$s difference</string>
+    <string name="COUNT_DIFFERENCE_OTHER">%1$s differences</string>
+    <string name="REPORT_PREDICTION_AGAINST_RUN">Prediction against the run</string>
+    <string name="REPORT_DIDNT_RUN">− didn't run</string>
+    <string name="REPORT_NOT_PREDICTED">+ not predicted</string>
+    <string name="REPORT_RAN">ran</string>
+    <string name="REPORT_INPUTS">Inputs</string>
+    <string name="REPORT_INPUT_PLANNED">planned %1$s, the program got %2$s</string>
+    <string name="REPORT_NOTHING">nothing</string>
+    <string name="REPORT_NOTHING_NOT_ASKED">nothing (it didn't ask)</string>
+    <string name="REPORT_NO_EXPLANATION">(no explanation yet)</string>
+    <string name="REPORT_I_PREDICTED">I predicted</string>
+    <string name="REPORT_IT_HELD">It held</string>
+    <string name="REPORT_ERRORS">Errors</string>
+    <string name="REPORT_ERRORS_PREDICTED">Predicted: %1$s. What happened: %2$s</string>
+    <string name="REPORT_MARKED_BY_STUDENT">Marked by the student</string>
+    <string name="REPORT_SUMMARY_MARK">Summary: %1$s</string>
+    <string name="REPORT_NOT_MARKED">not marked</string>
+    <string name="REPORT_LOOP_SAID">said “%1$s”; %2$s</string>
+    <string name="REPORT_LOGIC_ERROR_MARK">Logic error: %1$s</string>
+    <string name="INVESTIGATE_REWRITE_SUMMARY">Was your summary right? Rewrite it if not.</string>
+    <string name="INVESTIGATE_LEARNED">What is one thing this program taught you?</string>
+    <string name="REPORT_MODIFY">Mo · Modify</string>
+    <string name="REPORT_NOT_STARTED">Not started.</string>
+    <string name="REPORT_MY_GOAL">My goal</string>
+    <string name="REPORT_CHALLENGES">Challenges</string>
+    <string name="REPORT_CHECK">(check: %1$s)</string>
+    <string name="REPORT_CHANGE_LOG">Change log</string>
+    <string name="REPORT_NO_MODIFIED_RUNS">No runs of the modified code yet.</string>
+    <string name="LOG_TIME">Time</string>
+    <string name="LOG_I_EXPECTED">I expected</string>
+    <string name="LOG_WHAT_HAPPENED">What happened</string>
+    <string name="LOG_AS_EXPECTED">As expected?</string>
+    <string name="LOG_NOTE">Note</string>
+    <string name="MODIFY_REFLECTION">What broke while you were changing it, and how did you fix it?</string>
+    <string name="REPORT_MAKE">Ma · Make</string>
+    <string name="REPORT_BRIEF">Brief</string>
+    <string name="REPORT_PLAN">Plan</string>
+    <string name="PLAN_INPUTS">Inputs</string>
+    <string name="PLAN_PROCESS">Process</string>
+    <string name="PLAN_OUTPUTS">Outputs</string>
+    <string name="REPORT_PLAN_PSEUDOCODE">Plan (pseudocode)</string>
+    <string name="REPORT_TESTS">Tests</string>
+    <string name="REPORT_NO_TESTS">No tests written.</string>
+    <string name="TEST_INPUTS">Inputs</string>
+    <string name="TEST_EXPECTED_OUTPUT">Expected output</string>
+    <string name="TEST_ACTUAL_OUTPUT">Actual output</string>
+    <string name="TEST_PASS">Pass</string>
+    <string name="TEST_NOT_RUN">not run</string>
+    <string name="REPORT_CONCEPTS">Concepts</string>
+    <string name="CONCEPTS_CONCEPT">Concept</string>
+    <string name="CONCEPTS_MY_PROGRAM">My program</string>
+    <string name="MAKE_REFLECTION">What did you reuse from the original program?</string>
+    <string name="REPORT_NOT_WRITTEN">(not written)</string>
+    <string name="REPORT_NO_SUCH_FILE">(no such file)</string>
+    <string name="REPORT_MORE_LINES">… and %1$s.</string>
+    <string name="COUNT_MORE_LINE_ONE">%1$s more line</string>
+    <string name="COUNT_MORE_LINE_OTHER">%1$s more lines</string>
+    <string name="REPORT_EXPLANATION">Explanation: %1$s</string>
+    <string name="REPORT_NOT_WRITTEN_YET">(not written yet)</string>
+    <string name="REPORT_STILL_RUNNING">still running</string>
+    <string name="REPORT_RAN_TO_END">ran to the end with no errors</string>
+    <string name="REPORT_STOPPED_BEFORE_END">stopped before the end</string>
+    <string name="ERROR_ON_LINE">%1$s on line %2$s: %3$s</string>
+    <string name="ERROR_NO_LINE">%1$s: %2$s</string>
+    <string name="REPORT_NOT_CHOSEN">not chosen</string>
+    <string name="REPORT_KIND_ON_LINE">%1$s on line %2$s</string>
+    <string name="REPORT_WITH_REASON">%1$s (%2$s)</string>
+
+    <!-- ////////////////////////// -->
+    <!-- // CONSOLE AND MESSAGES // -->
+    <!-- ////////////////////////// -->
+    <string name="CONSOLE_RESTORED">Restored your work on “%1$s”.</string>
+    <string name="CONSOLE_NO_SUCH_SNIPPET">There's no built-in script called '%1$s'.</string>
+    <string name="CONSOLE_LINK_FAILED">Couldn't load the script in the link: %1$s</string>
+    <string name="CONSOLE_RUNNING_STEP">▶ Running main.py line by line</string>
+    <string name="CONSOLE_RUNNING">▶ Running main.py</string>
+    <string name="CONSOLE_RUNNING_TAB">▶ Running the %1$s program</string>
+    <string name="CONSOLE_PYTHON_FAILED">Python could not start: %1$s</string>
+    <string name="CONSOLE_FINISHED">■ Program finished</string>
+    <string name="CONSOLE_STOPPED">■ Stopped</string>
+    <string name="CHECK_PASSED">Passed: the output had what the check looks for.</string>
+    <string name="CHECK_RAN_OUT_OF_INPUT">It asked for more input than the check types in.</string>
+    <string name="CHECK_MISSING">The output didn't have: %1$s</string>
+    <string name="TEST_RAN_OUT_OF_INPUT">(asked for more input than the test gives)</string>
+    <string name="CONSOLE_FILE_TRUNCATED">■ %1$s grew past %2$s characters, so only the start was kept.</string>
+    <string name="FILE_UPLOAD_TOO_BIG">That file is too big for the Files tab.</string>
+    <string name="FILE_UPLOAD_TOO_LONG">%1$s is too big: files can hold up to %2$s characters.</string>
+    <string name="OUTCOME_RAN_TO_END">Ran to the end</string>
+    <string name="OUTCOME_STOPPED">Stopped before the end</string>
+    <string name="CONSOLE_LOADED">Loaded “%1$s”</string>
+    <string name="BATCH_CHECKING_CHALLENGE">Checking challenge %1$s</string>
+    <string name="BATCH_RUNNING_TESTS">Running tests</string>
+    <string name="BATCH_TEST_N_OF">Test %1$s of %2$s</string>
+    <string name="SAVE_SESSION_SAVED">Saved the session file (%1$s).</string>
+    <string name="SAVE_PDF_HINT">In the print window, choose “Save as PDF” as the printer.</string>
+    <string name="SAVE_IMAGE_COPYING">Copying the picture…</string>
+    <string name="SAVE_IMAGE_DRAWING">Drawing the picture…</string>
+    <string name="SAVE_IMAGE_COPIED">Copied.</string>
+    <string name="SAVE_IMAGE_SAVED">Saved the picture (%1$s).</string>
+    <string name="CONSOLE_OPENED_SESSION">Opened your work on “%1$s”.</string>
+    <string name="STUDENT_LINK_COPIED">Copied. Students who open the link get this program with these settings.</string>
+    <string name="STUDENT_LINK_NOT_COPIED">The browser wouldn't copy it. Select the link and copy it yourself: %1$s</string>
+    <string name="PYTHON_UNKNOWN_PROBLEM">Unknown problem</string>
+    <string name="CONSOLE_FILES_CHANGED">■ Files changed: %1$s (see the Files tab)</string>
+
+    <!-- //////////// -->
+    <!-- // SAVING // -->
+    <!-- //////////// -->
+    <string name="SAVE_IMAGE_TOO_TALL">The report is too long for one picture. Use Save as PDF instead.</string>
+    <string name="SAVE_IMAGE_CLIPBOARD_BLOCKED">The browser wouldn't let the picture be copied. Use Save as image instead.</string>
+    <string name="SAVE_IMAGE_FAILED">The picture couldn't be made. Try Save as PDF instead.</string>
+    <string name="SESSION_FILE_TOO_BIG">That file is too big to be a PRIMM session.</string>
+    <string name="FILE_UNREADABLE">That file couldn't be read.</string>
+    <string name="SESSION_NOT_A_SESSION">This file isn't a PRIMM session.</string>
+    <string name="SESSION_TOO_NEW">This must be an old version of PRIMM, the provided script was made using a newer version.</string>
+
+    <!-- ///////////// -->
+    <!-- // TOP BAR // -->
+    <!-- ///////////// -->
+    <string name="TOPBAR_LOAD">Load…</string>
+    <string name="TOPBAR_CHANGE_LANGUAGE">Change language: %1$s</string>
+    <string name="LANGUAGE_ENGLISH">English</string>
+    <string name="LANGUAGE_WELSH">Cymraeg</string>
+    <string name="TOPBAR_SAVE">Save…</string>
+    <string name="TOPBAR_AUTOSAVE">Autosave</string>
+    <string name="TOPBAR_STAGE">Stage: %1$s</string>
+    <string name="TOPBAR_CODE_LOCKED">code locked</string>
+    <string name="TOPBAR_CODE_UNLOCKED">code unlocked</string>
+    <string name="TOPBAR_LOADING_PROGRAM">Loading program…</string>
+    <string name="TOPBAR_PYTHON_LOADING">Python is loading…</string>
+    <string name="TOPBAR_PYTHON_READY">Python ready</string>
+    <string name="TOPBAR_RUNNING">Running…</string>
+    <string name="TOPBAR_WAITING_INPUT">Waiting for input</string>
+    <string name="TOPBAR_PAUSED_PRESS_NEXT">Paused: press Next</string>
+    <string name="TOPBAR_STOPPING">Stopping…</string>
+    <string name="TOPBAR_PYTHON_UNAVAILABLE">Python unavailable</string>
+
+    <!-- ///////////// -->
+    <!-- // DIALOGS // -->
+    <!-- ///////////// -->
+    <string name="DIALOG_CONFIRM_LOAD_TITLE">Load?</string>
+    <string name="DIALOG_LOADING_WILL_CLEAR_EDITOR">Loading “%1$s” will clear the editor. The changes you have made will be lost.</string>
+    <string name="DIALOG_LOAD">Load</string>
+    <string name="DIALOG_CANCEL">Cancel</string>
+    <string name="DIALOG_TEACHER_SETTINGS">Teacher settings</string>
+    <string name="DIALOG_UNLOCK_CODE_EDITOR">Unlock code editor</string>
+    <string name="DIALOG_DISABLE_RUN_UNTIL_PREDICT">Disable Run until Predict is complete</string>
+    <string name="DIALOG_ALLOW_ALL_PRIMM_ROWS">Allow all PRIMM rows</string>
+    <string name="DIALOG_SKIP_REVEAL_STEP_INVESTIGATE">Skip 'reveal' step in Investigate</string>
+    <string name="DIALOG_STOP_AT_INVESTIGATE">Stop after Investigate (hide the Modify and Make rows)</string>
+    <string name="DIALOG_MAKE_BRIEF_REFLECTION_ONLY">Make is a brief and a reflection only (students write the program in their usual editor i.e. Idle)</string>
+    <string name="DIALOG_STUDENTS_WHO_OPEN_LINK">Students who open this link get this program with the settings above.</string>
+    <string name="DIALOG_COPY_LINK_STUDENTS">Copy link for students</string>
+    <string name="DIALOG_DONE">Done</string>
+    <string name="DIALOG_START_MODIFYING">Start modifying?</string>
+    <string name="DIALOG_COPY_PROGRAM_OPENS_NEW">A copy of the program opens in a new tab for you to change.</string>
+    <string name="DIALOG_START">Start</string>
+    <string name="DIALOG_BACK_ORIGINAL">Back to the original?</string>
+    <string name="DIALOG_MODIFIED_TAB_GOES_BACK">The Modified tab goes back to the original program. Your changes will be lost (the change log is kept).</string>
+    <string name="DIALOG_REVERT">Revert</string>
+    <string name="DIALOG_REMOVE_FILE_TITLE">Remove %1$s?</string>
+    <string name="DIALOG_FILE_EVERYTHING_WILL_DELETED">The file and everything in it will be deleted from the Files tab.</string>
+    <string name="DIALOG_REMOVE">Remove</string>
+    <string name="DIALOG_ORIGINAL_MODIFIED">Original and modified</string>
+    <string name="DIALOG_ORIGINAL">Original</string>
+    <string name="DIALOG_MODIFIED">Modified</string>
+    <string name="DIALOG_NO_DIFFERENCES_YET">No differences yet.</string>
+    <string name="DIALOG_CLOSE">Close</string>
+    <string name="DIALOG_SAVE_WORK">Save your work</string>
+    <string name="DIALOG_NAMES">Your name(s)</string>
+    <string name="DIALOG_SAVE_PDF">Save as PDF</string>
+    <string name="DIALOG_CHOOSE_SAVE_PDF_PRINT">Choose “Save as PDF” in the print window.</string>
+    <string name="DIALOG_SAVE_IMAGE">Save as image</string>
+    <string name="DIALOG_SAME_REPORT_ONE_TALL">The same report as one tall picture.</string>
+    <string name="DIALOG_COPY_IMAGE">Copy image</string>
+    <string name="DIALOG_COPIES_PICTURE_PASTE_STRAIGHT">Copies that picture, to paste straight in.</string>
+    <string name="DIALOG_SAVE_SESSION">Save session</string>
+    <string name="DIALOG_PRIMM_JSON_FILE_CARRY">A .primm.json file to carry on next lesson.</string>
+
+    <!-- ////////////// -->
+    <!-- // GUIDANCE // -->
+    <!-- ////////////// -->
+    <string name="GUIDE_NEXT">Next</string>
+
+    <!-- ////////////////// -->
+    <!-- // TRACE TABLES // -->
+    <!-- ////////////////// -->
+    <string name="TRACE_NO_LINE">No line</string>
+    <string name="TRACE_ADD_ROW">+ Row</string>
+    <string name="TRACE_TABLE_FULL_ROWS">The table is full (%1$s rows).</string>
+    <string name="TRACE_HIDDEN">Hidden:</string>
+    <string name="TRACE_SHOW">show %1$s</string>
+    <string name="TRACE_ADD_VARIABLE">+ Variable</string>
+    <string name="TRACE_PASS_LOOP_LINE">pass %1$s (loop on line %2$s)</string>
+    <string name="TRACE_VARIABLE_PLACEHOLDER">variable</string>
+    <string name="TRACE_STYLE">Trace Style</string>
+    <string name="TRACE_STYLE_SIMPLIFIED">Simplified</string>
+    <string name="TRACE_STYLE_VERBOSE">Verbose (AQA/OCR/EdExcel)</string>
+    <string name="TRACE_PASS_HEADER">Pass</string>
+    <string name="TRACE_START">Start</string>
+    <string name="TRACE_PASS_OF_LOOP">%1$s (line %2$s)</string>
+    <string name="TRACE_END">End</string>
+    <string name="TRACE_AFTER_LOOP">After line %1$s</string>
+    <string name="TRACE_ADD_PASS">+ Pass</string>
+    <string name="TRACE_ADD_PASS_OF_LOOP">+ Pass (line %1$s)</string>
+    <string name="TRACE_LOOP_AGAIN">Loop again?</string>
+    <string name="TRACE_WHICH_BRANCH">Which branch? (line %1$s)</string>
+    <string name="TRACE_BRANCH_ELSE">else</string>
+    <string name="TRACE_BRANCH_NONE">none of them</string>
+    <string name="TRACE_SHOW_EVERY_LINE">Show every line</string>
+    <string name="TRACE_LINES_LEFT_OUT_ONE">1 line that changed nothing on show is left out.</string>
+    <string name="TRACE_LINES_LEFT_OUT_OTHER">%1$s lines that changed nothing on show are left out.</string>
+
+    <!-- ///////////// -->
+    <!-- // CONSOLE // -->
+    <!-- ///////////// -->
+    <string name="CONSOLE_TAB">Console</string>
+    <string name="CONSOLE_FILES_TAB">Files</string>
+    <string name="CONSOLE_NEXT">Next ›</string>
+    <string name="CONSOLE_CONTINUE">Continue »</string>
+    <string name="CONSOLE_RUN">▶ Run</string>
+    <string name="CONSOLE_STEP">Step</string>
+    <string name="CONSOLE_STOP">■ Stop</string>
+    <string name="CONSOLE_CLEAR">Clear</string>
+    <string name="CONSOLE_EARLIER_LINES_NOT_SHOWN">… %1$s earlier lines not shown</string>
+    <string name="CONSOLE_HINT">Hint:</string>
+    <string name="CONSOLE_NOTE_DOWN_EXPECT_DIFFERENT">Note down you expect to be different in the Modify row, then press ▶ Run.</string>
+    <string name="CONSOLE_WRITE_PROGRAM_THEN_PRESS">Write your program, then press ▶ Run.</string>
+    <string name="CONSOLE_FILL_EVERY_PART_PREDICT">Fill in every part of Predict to unlock ▶ Run.</string>
+    <string name="CONSOLE_PRESS_RUN_RUN_PROGRAM">Press ▶ Run to run the program. Its output appears here.</string>
+
+    <!-- ////////// -->
+    <!-- // MAKE // -->
+    <!-- ////////// -->
+    <string name="MAKE_BRIEF">Brief</string>
+    <string name="MAKE_THERES_NO_BRIEF_PROGRAM">There's no brief for this program: write what your new program should do.</string>
+    <string name="MAKE_WRITE_PROGRAM_USUAL_EDITOR">Write this program in your usual editor, then come back to reflect.</string>
+    <string name="MAKE_PLAN">Plan</string>
+    <string name="MAKE_INPUTS_PROCESS_OUTPUTS">Inputs / Process / Outputs</string>
+    <string name="MAKE_PSEUDOCODE">Pseudocode</string>
+    <string name="MAKE_INPUTS">Inputs</string>
+    <string name="MAKE_PROCESS">Process</string>
+    <string name="MAKE_OUTPUTS">Outputs</string>
+    <string name="MAKE_WRITE">Write it</string>
+    <string name="MAKE_NEW_PROGRAM">New program</string>
+    <string name="MAKE_OPENS_BLANK_MAKE_TAB">Opens a blank Make tab. The Original and Modified tabs stay open to copy from.</string>
+    <string name="MAKE_SHOW_MAKE_TAB">Show the Make tab</string>
+    <string name="MAKE_RUN_MY_PROGRAM">▶ Run my program</string>
+    <string name="MAKE_HAS_RUN_WITHOUT_ERRORS">✓ It has run without errors.</string>
+    <string name="MAKE_GET_RUN_WITHOUT_ERRORS">Get it to run without errors to move on.</string>
+    <string name="MAKE_TESTS">Tests</string>
+    <string name="MAKE_WRITE_WHAT_YOULL_TYPE">Write what you'll type (separated by commas) and what it should print (\\n for a new line). Run tests fills in the rest.</string>
+    <string name="MAKE_EXPECTED_OUTPUT">Expected output</string>
+    <string name="MAKE_ACTUAL_OUTPUT">Actual output</string>
+    <string name="MAKE_PASS">Pass</string>
+    <string name="MAKE_ADD_TEST">+ Test</string>
+    <string name="MAKE_RUN_TESTS">Run tests</string>
+    <string name="MAKE_BATCH_PROGRESS">%1$s: %2$s of %3$s</string>
+    <string name="MAKE_CONCEPTS">Concepts</string>
+    <string name="MAKE_ORIGINAL">Original</string>
+    <string name="MAKE_MINE">Mine</string>
+    <string name="MAKE_PROGRAMS_CONCEPTS_TICKED_WRITE">Your program's concepts are ticked as you write it.</string>
+</resources>

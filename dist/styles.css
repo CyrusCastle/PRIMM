@@ -1,0 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* The page colour of the lesson colour sheet, so loading matches the app. */
+    background: #ecefe6;
+}
+
+/* CodeMirror is drawn over the Compose canvas; bridge.js sets its position. */
+.primm-editor-host {
+    position: fixed;
+    z-index: 10;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #ffffff;
+    /* The page body is centred for the loading spinner; the editor must not be. */
+    text-align: left;
+}
+
+.primm-editor-host .cm-editor {
+    height: 100%;
+}
+
+.primm-editor-host .cm-editor.cm-focused {
+    outline: none;
+}
+
+.primm-editor-host .primm-marks {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    mix-blend-mode: multiply;
+    touch-action: none;
+    pointer-events: none;
+}

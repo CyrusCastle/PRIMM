@@ -1,0 +1,1177 @@
+{
+  "starter": "hello-times",
+  "topics": [
+    {
+      "id": "year-10",
+      "title": {
+        "en": "Year 10 lesson"
+      }
+    },
+    {
+      "id": "year-11",
+      "title": {
+        "en": "Year 11 lesson"
+      }
+    },
+    {
+      "id": "sequence",
+      "title": {
+        "en": "Sequence"
+      }
+    },
+    {
+      "id": "selection",
+      "title": {
+        "en": "Selection"
+      }
+    },
+    {
+      "id": "count-loops",
+      "title": {
+        "en": "Count-controlled loops"
+      }
+    },
+    {
+      "id": "condition-loops",
+      "title": {
+        "en": "Condition-controlled loops"
+      }
+    },
+    {
+      "id": "lists",
+      "title": {
+        "en": "Lists"
+      }
+    },
+    {
+      "id": "functions",
+      "title": {
+        "en": "Functions"
+      }
+    },
+    {
+      "id": "files",
+      "title": {
+        "en": "Text files"
+      }
+    }
+  ],
+  "snippets": [
+    {
+      "id": "greeting-card",
+      "title": {
+        "en": "Greeting card"
+      },
+      "topic": "sequence",
+      "concepts": [
+        "Input"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change the last message so it says how old they are now."
+          },
+          "answers": [
+            "Sam",
+            "12"
+          ],
+          "expect": "12"
+        },
+        {
+          "text": {
+            "en": "Ask for the sender's name and print \"From\" and their name at the end."
+          },
+          "answers": [
+            "Sam",
+            "12",
+            "Ali"
+          ],
+          "expect": "From Ali"
+        },
+        {
+          "text": {
+            "en": "Also print how many months old they are (age × 12)."
+          },
+          "answers": [
+            "Sam",
+            "12"
+          ],
+          "expect": "144"
+        }
+      ],
+      "brief": {
+        "en": "Ask for a pet's name and its age in years, then print its age in \"dog years\" (age × 7)."
+      }
+    },
+    {
+      "id": "rectangle",
+      "title": {
+        "en": "Rectangle area"
+      },
+      "topic": "sequence",
+      "concepts": [
+        "Input"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Make it work with decimal measurements such as 2.5."
+          },
+          "answers": [
+            "2.5",
+            "4"
+          ],
+          "expect": "10.0"
+        },
+        {
+          "text": {
+            "en": "Print the units (cm) after each answer."
+          }
+        },
+        {
+          "text": {
+            "en": "Also work out the area of a triangle with the same width and height."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for the length of one side of a square, then print its area and perimeter."
+      }
+    },
+    {
+      "id": "swap",
+      "title": {
+        "en": "Swap two values"
+      },
+      "topic": "sequence",
+      "concepts": [],
+      "challenges": [
+        {
+          "text": {
+            "en": "Delete the line temp = a and use b = a instead. What goes wrong?"
+          }
+        },
+        {
+          "text": {
+            "en": "Add c = 5 and rotate the values so a gets b's value, b gets c's and c gets a's."
+          }
+        },
+        {
+          "text": {
+            "en": "Replace the three swapping lines with a, b = b, a."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for two words and print them in the opposite order."
+      }
+    },
+    {
+      "id": "old-enough",
+      "title": {
+        "en": "Old enough?"
+      },
+      "topic": "selection",
+      "concepts": [
+        "Input",
+        "Selection"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change the joining age to 11."
+          },
+          "answers": [
+            "11"
+          ],
+          "expect": "You can join the club."
+        },
+        {
+          "text": {
+            "en": "Say \"year\" instead of \"years\" when there is only one year to wait."
+          },
+          "answers": [
+            "12"
+          ],
+          "expect": "1 year."
+        },
+        {
+          "text": {
+            "en": "Turn away anyone over 18 with a different message."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask how many hours of sleep someone had and tell them whether it was enough (8 or more)."
+      }
+    },
+    {
+      "id": "grades",
+      "title": {
+        "en": "Grade boundaries"
+      },
+      "topic": "selection",
+      "concepts": [
+        "Input",
+        "Selection"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Add an A* grade for 90 and above."
+          },
+          "answers": [
+            "95"
+          ],
+          "expect": "A*"
+        },
+        {
+          "text": {
+            "en": "Also print \"Well done!\" for grades A and B."
+          }
+        },
+        {
+          "text": {
+            "en": "Print an error message instead of a grade if the score is above 100."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for the temperature in °C and print \"cold\" (below 10), \"mild\" (10 to 20) or \"hot\" (above 20)."
+      }
+    },
+    {
+      "id": "password",
+      "title": {
+        "en": "Password check"
+      },
+      "topic": "selection",
+      "concepts": [
+        "Input",
+        "Selection"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Accept the password whatever capital letters are used (hint: .lower())."
+          },
+          "answers": [
+            "OPEN Sesame"
+          ],
+          "expect": "Access granted"
+        },
+        {
+          "text": {
+            "en": "Add a second password that also works."
+          }
+        },
+        {
+          "text": {
+            "en": "When the password is wrong, say how many characters were typed (hint: len())."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask a quiz question, then say whether the answer is right or wrong."
+      }
+    },
+    {
+      "id": "hello-times",
+      "title": {
+        "en": "Hello, many times"
+      },
+      "topic": "count-loops",
+      "concepts": [
+        "Input",
+        "ForLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Make the numbers start from 0 instead of 1."
+          },
+          "answers": [
+            "Sam",
+            "2"
+          ],
+          "expect": "0 Hello Sam"
+        },
+        {
+          "text": {
+            "en": "Print the name in capital letters (hint: name.upper())."
+          }
+        },
+        {
+          "text": {
+            "en": "After the loop, print \"That's a lot!\" only if times is more than 5."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for a word and a number, then print the word that many times on one line (hint: print(word, end=\" \"))."
+      }
+    },
+    {
+      "id": "times-table",
+      "title": {
+        "en": "Times table"
+      },
+      "topic": "count-loops",
+      "concepts": [
+        "Input",
+        "ForLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Make it go up to 12 x."
+          },
+          "answers": [
+            "3"
+          ],
+          "expect": "12 x 3 = 36"
+        },
+        {
+          "text": {
+            "en": "Make it count down from 12 to 1."
+          }
+        },
+        {
+          "text": {
+            "en": "Only print the lines where the answer is even."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Print the square of each number from 1 to 10."
+      }
+    },
+    {
+      "id": "countdown",
+      "title": {
+        "en": "Countdown"
+      },
+      "topic": "count-loops",
+      "concepts": [
+        "ForLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Start the countdown from 10."
+          },
+          "expect": "10"
+        },
+        {
+          "text": {
+            "en": "Count down in twos."
+          }
+        },
+        {
+          "text": {
+            "en": "Ask the user which number to start from."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Count up from 1 to a number the user types, then print \"Ready or not, here I come!\""
+      }
+    },
+    {
+      "id": "running-total",
+      "title": {
+        "en": "Running total"
+      },
+      "topic": "count-loops",
+      "concepts": [
+        "Input",
+        "ForLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Ask how many items there are before the loop, and loop that many times."
+          }
+        },
+        {
+          "text": {
+            "en": "Give a discount of 10 off if the total is over 50."
+          }
+        },
+        {
+          "text": {
+            "en": "Only print the total once, at the end."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for 5 test scores and print their average."
+      }
+    },
+    {
+      "id": "guess",
+      "title": {
+        "en": "Guess the number"
+      },
+      "topic": "condition-loops",
+      "concepts": [
+        "Input",
+        "Selection",
+        "WhileLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change the secret number."
+          }
+        },
+        {
+          "text": {
+            "en": "Say \"try\" instead of \"tries\" when it is guessed first time."
+          }
+        },
+        {
+          "text": {
+            "en": "Stop after 5 wrong guesses and reveal the number."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Keep asking for a password until the right one is typed, then print \"Welcome\"."
+      }
+    },
+    {
+      "id": "doubling",
+      "title": {
+        "en": "Doubling"
+      },
+      "topic": "condition-loops",
+      "concepts": [
+        "WhileLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Make it stop once the value passes 1000."
+          },
+          "expect": "1024"
+        },
+        {
+          "text": {
+            "en": "Triple the value each time instead of doubling it."
+          },
+          "expect": "243"
+        },
+        {
+          "text": {
+            "en": "Ask the user for the starting value."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Start with 100 and keep halving it until it is less than 1, counting the steps."
+      }
+    },
+    {
+      "id": "menu",
+      "title": {
+        "en": "Menu loop"
+      },
+      "topic": "condition-loops",
+      "concepts": [
+        "Input",
+        "Selection",
+        "WhileLoop"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Add a menu option c that prints a joke."
+          }
+        },
+        {
+          "text": {
+            "en": "Print \"I don't understand\" for any other choice."
+          },
+          "answers": [
+            "x",
+            "q"
+          ],
+          "expect": "I don't understand"
+        },
+        {
+          "text": {
+            "en": "Count how many choices were made and print the count at the end."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Write a calculator menu: keep asking for two numbers and add them until the user types \"stop\"."
+      }
+    },
+    {
+      "id": "shopping-list",
+      "title": {
+        "en": "Shopping list"
+      },
+      "topic": "lists",
+      "concepts": [
+        "Input",
+        "ForLoop",
+        "Lists"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Let the user add 5 items."
+          }
+        },
+        {
+          "text": {
+            "en": "Print the list in alphabetical order (hint: items.sort())."
+          },
+          "answers": [
+            "pear",
+            "apple",
+            "fig"
+          ],
+          "expect": "- apple\n- fig\n- pear"
+        },
+        {
+          "text": {
+            "en": "Don't add an item if it is already in the list."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for the names of 4 friends, then print them in reverse order."
+      }
+    },
+    {
+      "id": "highest-score",
+      "title": {
+        "en": "Highest score"
+      },
+      "topic": "lists",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Lists"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Find the lowest score instead."
+          },
+          "expect": "7"
+        },
+        {
+          "text": {
+            "en": "Also add up all the scores and print the total."
+          },
+          "expect": "160"
+        },
+        {
+          "text": {
+            "en": "Count how many scores are over 25."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Make a list of 5 temperatures and print how many are below freezing (0)."
+      }
+    },
+    {
+      "id": "area-function",
+      "title": {
+        "en": "Area function"
+      },
+      "topic": "functions",
+      "concepts": [
+        "Functions"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Add a third rectangle and include it in the total."
+          }
+        },
+        {
+          "text": {
+            "en": "Write a perimeter(width, height) function and use it too."
+          }
+        },
+        {
+          "text": {
+            "en": "Ask the user for the width and height of one rectangle."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Write a function that converts miles to kilometres (× 1.6) and use it for three distances."
+      }
+    },
+    {
+      "id": "even-odd",
+      "title": {
+        "en": "Even or odd"
+      },
+      "topic": "functions",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Functions"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Check the numbers 1 to 10."
+          },
+          "expect": "10 is even"
+        },
+        {
+          "text": {
+            "en": "Write is_multiple_of_3(number) and use it as well."
+          }
+        },
+        {
+          "text": {
+            "en": "Count how many even numbers there were and print the count."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Write a function that returns the larger of two numbers, and test it with three pairs."
+      }
+    },
+    {
+      "id": "read-scores",
+      "title": {
+        "en": "Read scores"
+      },
+      "topic": "files",
+      "concepts": [
+        "ForLoop",
+        "Files"
+      ],
+      "files": [
+        "scores.txt"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Print the total as well as the average."
+          },
+          "expect": "Total: 24"
+        },
+        {
+          "text": {
+            "en": "Also print the highest score."
+          },
+          "expect": "Highest: 10"
+        },
+        {
+          "text": {
+            "en": "Add your own name and score to scores.txt in the Files tab, then run it again."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Make a file called temps.txt with one temperature on each line, then write a program that reads it and prints the highest and lowest temperatures."
+      }
+    },
+    {
+      "id": "guest-book",
+      "title": {
+        "en": "Guest book"
+      },
+      "topic": "files",
+      "concepts": [
+        "Input",
+        "ForLoop",
+        "Files"
+      ],
+      "files": [
+        "guests.txt"
+      ],
+      "traceColumns": [
+        "name"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Number each guest in the list (1. Ada, 2. Alan, …)."
+          },
+          "answers": [
+            "Sam"
+          ],
+          "expect": "1. Ada\n2. Alan\n3. Sam"
+        },
+        {
+          "text": {
+            "en": "Also ask for a message and save it on the same line as the name, e.g. \"Sam: Hello!\"."
+          },
+          "answers": [
+            "Sam",
+            "Hello!"
+          ],
+          "expect": "Sam: Hello!"
+        },
+        {
+          "text": {
+            "en": "Change \"a\" to \"w\" on line 2 and run it twice. What happens to the other names, and why?"
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for a score and add it to a file called highscores.txt, then print every score saved so far."
+      }
+    },
+    {
+      "id": "save-list",
+      "title": {
+        "en": "Save a list"
+      },
+      "topic": "files",
+      "concepts": [
+        "ForLoop",
+        "Lists",
+        "Files"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Add two more colours to the list."
+          },
+          "expect": "Saved 5 colours"
+        },
+        {
+          "text": {
+            "en": "Read colours.txt back in and print each colour in capitals (hint: .upper())."
+          },
+          "expect": "RED\nGREEN\nBLUE"
+        },
+        {
+          "text": {
+            "en": "Write each colour's position too, like 1,red, so the file is a CSV."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Ask for five words, save them to words.txt (one on each line), then read the file and print the words in reverse order."
+      }
+    },
+    {
+      "id": "count-words",
+      "title": {
+        "en": "Count words"
+      },
+      "topic": "files",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Lists",
+        "Files"
+      ],
+      "files": [
+        "poem.txt"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Count how many times the word \"the\" appears, whatever its capitals."
+          },
+          "expect": "the: 4"
+        },
+        {
+          "text": {
+            "en": "Write the three results to a file called report.txt as well as printing them."
+          }
+        },
+        {
+          "text": {
+            "en": "Change poem.txt in the Files tab to a short poem of your own and run it again."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Read a file of names (one on each line) and write the names that start with A to a new file called a-names.txt."
+      }
+    },
+    {
+      "id": "11a",
+      "title": {
+        "en": "11a"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Files"
+      ],
+      "files": [
+        "scores.txt"
+      ],
+      "traceColumns": [
+        "score",
+        "highest"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Also print the total of all the scores."
+          },
+          "expect": "Total: 57"
+        },
+        {
+          "text": {
+            "en": "Also print the lowest score, in the same style as the highest."
+          },
+          "expect": "Lowest score: 4"
+        },
+        {
+          "text": {
+            "en": "Change every score in scores.txt to a negative number and run it again. What goes wrong, and how would you fix it?"
+          }
+        }
+      ],
+      "brief": {
+        "en": "Make a file called temps.txt with one temperature on each line, then write a program that reads it and prints the coldest temperature."
+      }
+    },
+    {
+      "id": "11b",
+      "title": {
+        "en": "11b"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Files"
+      ],
+      "files": [
+        "results.csv"
+      ],
+      "traceColumns": [
+        "name",
+        "score",
+        "top_score",
+        "top_name"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change > to >= on line 11. Who is the top scorer now, and why?"
+          }
+        },
+        {
+          "text": {
+            "en": "Also print who scored lowest, like Bottom scorer: Cai with 11."
+          },
+          "expect": "Bottom scorer: Cai with 11"
+        },
+        {
+          "text": {
+            "en": "Save the class average in summary.txt too, on a second line."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Make a file called times.csv with a runner's name and race time in seconds on each line, then write a program that saves the fastest runner to a new file called report.txt and prints the average time."
+      }
+    },
+    {
+      "id": "11c",
+      "title": {
+        "en": "11c"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Files"
+      ],
+      "files": [
+        "scores.txt"
+      ],
+      "traceColumns": [
+        "score",
+        "saved"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change the program so only scores of 15 or more are saved."
+          },
+          "expect": "2 scores saved to passed.txt"
+        },
+        {
+          "text": {
+            "en": "Print each score that doesn't pass, like Failed: 7."
+          },
+          "expect": "Failed: 7\nFailed: 4"
+        },
+        {
+          "text": {
+            "en": "Save the scores that don't pass to a second file called failed.txt."
+          }
+        }
+      ],
+      "brief": {
+        "en": "Read scores.txt and write each score doubled to a new file called doubled.txt, then print how many scores were written."
+      }
+    },
+    {
+      "id": "11d-a",
+      "title": {
+        "en": "11d (a)"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "Lists",
+        "Files"
+      ],
+      "files": [
+        "temperatures.txt"
+      ],
+      "traceColumns": [
+        "temps",
+        "total",
+        "average"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Print how many places were averaged, like Places: 3."
+          },
+          "expect": "Places: 3"
+        },
+        {
+          "text": {
+            "en": "Also print the warmest temperature, like Warmest: 11.2."
+          },
+          "expect": "Warmest:"
+        },
+        {
+          "text": {
+            "en": "reduce(add, temps) works through the list two values at a time. Write out each step it takes with these three temperatures. Which lines of 11d (c) does it replace?"
+          }
+        }
+      ],
+      "brief": {
+        "en": "Choose three places you have visited. Use map to get their temperatures and reduce to add them up, then add \"dd/mm/yyyy - total of x celsius\" to the end of a file called totals.txt."
+      }
+    },
+    {
+      "id": "11d-b",
+      "title": {
+        "en": "11d (b)"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "ForLoop",
+        "Lists",
+        "Files"
+      ],
+      "files": [
+        "temperatures.txt"
+      ],
+      "traceColumns": [
+        "temps",
+        "total",
+        "average"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Print how many places were averaged, like Places: 3."
+          },
+          "expect": "Places: 3"
+        },
+        {
+          "text": {
+            "en": "Also print the warmest temperature, like Warmest: 11.2."
+          },
+          "expect": "Warmest:"
+        },
+        {
+          "text": {
+            "en": "Compare this program with 11d (c). Which lines replaced the for loop, and why are the places no longer printed?"
+          }
+        }
+      ],
+      "brief": {
+        "en": "Choose three places you have visited. Use a list comprehension to get their temperatures, then add \"dd/mm/yyyy - warmest: x celsius\" to the end of a file called warmest.txt."
+      }
+    },
+    {
+      "id": "11d",
+      "title": {
+        "en": "11d (c)"
+      },
+      "topic": "year-11",
+      "concepts": [
+        "ForLoop",
+        "Lists",
+        "Files"
+      ],
+      "files": [
+        "temperatures.txt"
+      ],
+      "traceColumns": [
+        "place",
+        "temp",
+        "total",
+        "average"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Print how many places were averaged, like Places: 3."
+          },
+          "expect": "Places: 3"
+        },
+        {
+          "text": {
+            "en": "Run the program twice. What does temperatures.txt hold now, and why? What would happen if \"a\" were \"w\"?"
+          }
+        },
+        {
+          "text": {
+            "en": "Also print the warmest place, like Warmest: London."
+          },
+          "expect": "Warmest:"
+        }
+      ],
+      "brief": {
+        "en": "Choose three places you have visited. Write a program that finds the coldest of them right now and adds \"dd/mm/yyyy - coldest: place\" to the end of a file called coldest.txt."
+      }
+    },
+    {
+      "id": "10a",
+      "title": {
+        "en": "10a"
+      },
+      "topic": "year-10",
+      "concepts": [
+        "Input",
+        "WhileLoop",
+        "Selection"
+      ],
+      "traceColumns": [
+        "message"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Make the chatbot reply I love cats too! when a message mentions cats."
+          },
+          "answers": [
+            "Ana",
+            "I like cats",
+            "bye"
+          ],
+          "expect": "I love cats too!"
+        },
+        {
+          "text": {
+            "en": "Make the chatbot say goodbye and stop when the user types quit, as well as bye."
+          },
+          "answers": [
+            "Ana",
+            "quit"
+          ],
+          "expect": "Goodbye, Ana"
+        },
+        {
+          "text": {
+            "en": "Type BYE in capitals. Why does the chat still end? Which part of the code makes that happen?"
+          }
+        }
+      ],
+      "brief": {
+        "en": "Make a chatbot for a café. It asks what you'd like, gives a different answer for tea, coffee and cake, and keeps going until you type done."
+      }
+    },
+    {
+      "id": "10b",
+      "title": {
+        "en": "10b"
+      },
+      "topic": "year-10",
+      "concepts": [
+        "ForLoop",
+        "Selection",
+        "Lists"
+      ],
+      "traceColumns": [
+        "place",
+        "temp",
+        "message"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Change the program so it's boiling from 20 °C. Which places get a different message now?"
+          }
+        },
+        {
+          "text": {
+            "en": "Count how many places are cold and print the count at the end, like Cold places: 2."
+          },
+          "expect": "Cold places:"
+        },
+        {
+          "text": {
+            "en": "Print the warmest place at the end, like Warmest: Hornsea."
+          },
+          "expect": "Warmest:"
+        }
+      ],
+      "brief": {
+        "en": "Make a list of five places you'd like to visit. For each one, print its temperature and whether you'd need a coat (below 15 °C), then print how many places need one."
+      }
+    },
+    {
+      "id": "10c",
+      "title": {
+        "en": "10c"
+      },
+      "topic": "year-10",
+      "concepts": [
+        "ForLoop"
+      ],
+      "traceColumns": [
+        "number",
+        "square"
+      ],
+      "challenges": [
+        {
+          "text": {
+            "en": "Print the squares all the way up to 10 squared."
+          },
+          "expect": "10 squared is 100"
+        },
+        {
+          "text": {
+            "en": "Print each number's cube too, like 2 cubed is 8."
+          },
+          "expect": "5 cubed is 125"
+        },
+        {
+          "text": {
+            "en": "Ask the user how many squares to print."
+          },
+          "answers": [
+            "7"
+          ],
+          "expect": "7 squared is 49"
+        }
+      ],
+      "brief": {
+        "en": "Write a program that prints the numbers 1 to 10 with each one doubled, like 3 doubled is 6."
+      }
+    }
+  ]
+}

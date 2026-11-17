@@ -1,0 +1,29 @@
+<resources>
+    <string name="APP_NAME">RRYMA</string>
+
+    <!-- //////////////// -->
+    <!-- // PRIMM ROWS // -->
+    <!-- //////////////// -->
+    <string name="STAGE_PREDICT_SHORT">Rh</string>
+    <string name="STAGE_RUN_SHORT">Rh</string>
+    <string name="STAGE_INVESTIGATE_SHORT">Y</string>
+    <string name="STAGE_MODIFY_SHORT">M</string>
+    <string name="STAGE_MAKE_SHORT">A</string>
+
+    <string name="STAGE_PREDICT_SHORT_ADDITIONAL">a</string>
+    <string name="STAGE_RUN_SHORT_ADDITIONAL">e</string>
+    <string name="STAGE_INVESTIGATE_SHORT_ADDITIONAL"></string>
+    <string name="STAGE_MODIFY_SHORT_ADDITIONAL"></string>
+    <string name="STAGE_MAKE_SHORT_ADDITIONAL"></string>
+
+    <string name="STAGE_PREDICT">Rhagfynegi</string>
+    <string name="STAGE_RUN">Rhedeg</string>
+    <string name="STAGE_INVESTIGATE">Ymchwilio</string>
+    <string name="STAGE_MODIFY">Mireinio</string>
+    <string name="STAGE_MAKE">Adeiladu</string>
+
+    <!-- //////////// -->
+    <!-- // TOPBAR // -->
+    <!-- //////////// -->
+    <string name="TOPBAR_CHANGE_LANGUAGE">Newid iaith: %1$s</string>
+</resources>
