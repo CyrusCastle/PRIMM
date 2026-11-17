@@ -9,5 +9,5 @@ val dist by tasks.registering(Sync::class) {
     dependsOn(":webApp:wasmJsBrowserDistribution")
 
     from(project(":webApp").layout.buildDirectory.dir("dist/wasmJs/productionExecutable"))
-    into(layout.projectDirectory.dir("dist"))
+    into(layout.projectDirectory.dir("docs"))
 }
